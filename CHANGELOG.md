@@ -1,6 +1,15 @@
 # Changelog #
 
 
+## 1.9.0 ??? (unreleased)
+
+### Features
+- Ability to choose a theme (thanks to [@astagi](https://github.com/astagi))
+
+### Misc
+- Lots of small and not so small bugfixes.
+
+
 ## 1.8.0 Saracenia Purpurea (2015-06-18)
 
 ### Features
