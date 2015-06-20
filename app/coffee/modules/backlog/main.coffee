@@ -962,7 +962,7 @@ BurndownBacklogGraphDirective = ($translate) ->
                 hoverable: true
             }
             xaxis: {
-                ticks: dataToDraw.milestones.length
+                ticks: _.map(dataToDraw.milestones, (m, i) -> return [i, m.name])
                 axisLabel: $translate.instant("BACKLOG.CHART.XAXIS_LABEL"),
                 axisLabelUseCanvas: true
                 axisLabelFontSizePixels: 12
